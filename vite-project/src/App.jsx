@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://video-stream-42t6.onrender.com", { withCredentials: true });
+const socket = io("https://video-stream-axp5.onrender.com", { withCredentials: true });
 
 const configuration = {
   iceServers: [
